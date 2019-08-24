@@ -13,3 +13,23 @@ total 4
 drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 ./
 drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 ../
 drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 .git/
+
+Adding files
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git add git\ commands.txt
+
+status of git repo
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   git commands.txt
+
+
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$
