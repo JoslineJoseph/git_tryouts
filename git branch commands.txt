@@ -1,0 +1,40 @@
+Before Initial Commit : Git wont have any branches.
+
+without any initial commit if you try to create a branch it will throw error. "Not a valida object name: 'master'"
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git branch josline
+fatal: Not a valid object name: 'master'.
+
+"You have to have atleat one commit. so the git will create branches
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git commit -m "First Commit"
+[master (root-commit) d70ec98] First Commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 git commands.txt
+
+On checking git branches - now master is displayed
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git branch
+* master
+
+able to create new branch
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git branch josline-dev
+
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git branch
+  josline-dev
+* master
+
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+
+
+Switching to another branch
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ git checkout josline-dev
+Switched to branch 'josline-dev'
+M       git commands.txt
+
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (josline-dev)
+$
+
