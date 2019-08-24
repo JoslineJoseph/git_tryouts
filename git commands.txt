@@ -1,0 +1,15 @@
+git init git_tryouts
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning
+$ git init git_tryouts
+Initialized empty Git repository in C:/Personal/learning/josline/Git Commands Learning/git_tryouts/.git/
+
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning
+$ cd git_tryouts/
+
+listing all files
+Critty Josu@LAPTOP-38LNUQLR MINGW64 /c/Personal/learning/josline/Git Commands Learning/git_tryouts (master)
+$ ls -al
+total 4
+drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 ./
+drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 ../
+drwxr-xr-x 1 Critty Josu 197121 0 Aug 24 07:54 .git/
